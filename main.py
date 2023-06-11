@@ -25,7 +25,7 @@ st.title('My Streamlit App')
 
 # User inputs
 user_id = st.text_input('Enter your User ID (from QR code):')
-location = st.selectbox('Select Your Location:', ['Kuala Lumpur', 'Ipoh', 'Georgetown', 'Alor Star', 'Johor Bahru'])
+location = st.selectbox('Select Your Location:', ['Kuala Lumpur', 'Ipoh', 'Georgetown', 'Alor Setar', 'Johor Bahru'])
 
 # Fetch area code for the selected location
 area_code_df = run_query(f'SELECT * FROM accident_location WHERE Location = "{location}"')
