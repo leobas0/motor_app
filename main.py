@@ -21,7 +21,7 @@ def get_tow_truck_and_workshop_details(area_code):
     return tow_truck_df, workshop_df
 
 # Title
-st.title('My Streamlit App')
+st.title('Insurance Claim Tracker')
 
 # User inputs
 user_id = st.text_input('Enter your User ID (from QR code):')
